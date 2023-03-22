@@ -123,7 +123,6 @@ for(c in 1:4) {
         
       }}
   } 
-  write.csv(MC_P, file = paste(c, "Model_370.csv", sep =""),  row.names = FALSE)
+  write.csv(MC_P, file = paste("MCMC_chain_", c, ".csv", sep =""),  row.names = FALSE)
 }
-
 
